@@ -1,0 +1,15 @@
+.edge
+{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 5s , border-radius 5s;
+}
+.edge:hover
+{
+    transform: rotate(75deg);
+    border-radius: 50%;
+}
