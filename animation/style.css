@@ -1,0 +1,29 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1
+{
+    text-align: center;
+    margin-top: 56px;
+    margin-bottom: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* animation start here  */
+.stage
+{
+    width: 500px;
+    height: 300px;
+    background-color: lightcyan;
+    border: 2px solid lightgreen;
+}
+.ball
+{
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+    border-radius: 50%;
+}
