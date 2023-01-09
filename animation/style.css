@@ -1,10 +1,10 @@
-body
+/* body
 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 h1
 {
     text-align: center;
@@ -13,6 +13,21 @@ h1
     font-family: 'Times New Roman', Times, serif;
 }
 /* animation start here  */
+@keyframes slider {
+    from
+    {
+        background-color: aqua;
+        left: 0px;
+
+    }
+    to
+    {
+        
+        background-color: crimson;
+        left: 400px;
+    }
+}
+/* okh anymation end */
 .stage
 {
     width: 500px;
@@ -24,6 +39,8 @@ h1
 {
     width: 100px;
     height: 100px;
+    position: absolute;
     background-color: lightpink;
     border-radius: 50%;
+    animation: slider 1s ease-in-out 0.5s alternate infinite ;
 }
